@@ -1,0 +1,25 @@
+{
+  "name": "nor-versions",
+  "version": "0.1.0",
+  "description": "Version helper",
+  "main": "src/versions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sendanor/nor-versions.git"
+  },
+  "keywords": [
+    "version"
+  ],
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sendanor/nor-versions/issues"
+  },
+  "homepage": "https://github.com/sendanor/nor-versions",
+  "dependencies": {
+    "nor-fs": ">= 0.1.0 <0.2.0"
+  }
+}
