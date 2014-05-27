@@ -27,7 +27,7 @@ versions.get = function(file) {
 	var result = {};
 	result[versions.getAppName() + '@fs'] = pkg_version_on_disk(file);
 	result[versions.getAppName() + '@backend'] = process.env.npm_package_version;
-	result['node@backend'] = process.env.npm_config_node_version.replace(/^v/, "");
+	result['node@backend'] = process.versions.node;
 	return result;
 };
 
