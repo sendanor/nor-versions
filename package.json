@@ -1,6 +1,6 @@
 {
   "name": "nor-versions",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Version helper",
   "main": "src/versions.js",
   "scripts": {
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/sendanor/nor-versions",
   "dependencies": {
-    "nor-fs": ">= 0.1.17 < 0.2.0"
+    "nor-fs": ">= 0.1.18 < 0.2.0"
   }
 }
